@@ -151,9 +151,10 @@ public class BottomSheetFragment extends BottomSheetDialogFragment implements Vi
                 if (this.isVisible()) {
                     this.dismiss();
                 }
-            } else {
-                Snackbar.make(saveButton, R.string.empty_field, Snackbar.LENGTH_LONG).show();
             }
+//            else {
+//                Snackbar.make(saveButton, R.string.empty_field, Snackbar.LENGTH_LONG).show();
+//            }
         });
 
     }
